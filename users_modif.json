@@ -1,0 +1,105 @@
+{
+  "_comment": "Structure principale du JSON : personnes et localisations",
+  "personnes": {
+    "_comment": "Liste des personnes avec leurs informations",
+    "1": {
+      "_comment": "Identifiant unique pour chaque personne",
+      "nom": "WEASLEY",
+      "prenom": "Ron",
+      "img": "ron.jpg",
+      "_comment_img": "Nom de fichier en minuscules pour cohérence",
+      "lieu": "Banque Gringotts",
+      "date": "2025-02-26T10:57:54Z",
+      "_comment_date": "Format ISO 8601 avec 'Z' pour UTC"
+    },
+    "2": {
+      "nom": "POTTER",
+      "prenom": "Harry",
+      "img": "harry.jpg",
+      "lieu": "Banque Gringotts",
+      "date": "2025-03-01T13:34:36Z"
+    },
+    "3": {
+      "nom": "WEASLEY",
+      "prenom": "Bill",
+      "img": "bill.png",
+      "_comment_img": "Extension .png utilisée ici, considérer uniformisation",
+      "lieu": "Banque Gringotts",
+      "date": "2025-02-27T10:52:13Z"
+    },
+    "4": {
+      "nom": "WEASLEY",
+      "prenom": "Charlie",
+      "img": "charlie.png",
+      "lieu": "Banque Gringotts",
+      "date": "2025-03-02T12:08:43Z"
+    },
+    "5": {
+      "nom": "WEASLEY",
+      "prenom": "Fred et George",
+      "_comment_prenom": "Noms composés autorisés pour les jumeaux",
+      "img": "fredetgeorge.png",
+      "lieu": "Banque Gringotts",
+      "date": "2025-02-03T09:35:42Z"
+    },
+    "6": {
+      "nom": "WEASLEY",
+      "prenom": "Ginny",
+      "img": "ginny.png",
+      "lieu": "Banque Gringotts",
+      "date": "2025-03-04T15:04:26Z"
+    },
+    "7": {
+      "nom": "WEASLEY",
+      "prenom": "Percy",
+      "img": "percy.png",
+      "lieu": "Banque Gringotts",
+      "date": "2025-03-01T13:34:36Z"
+    }
+  },
+  "localisations": {
+    "_comment": "Liste des lieux avec leurs descriptions et images",
+    "Maison": {
+      "text": "à la maison",
+      "img": "maison.jpg",
+      "_comment": "Texte descriptif pour l'affichage"
+    },
+    "Poudlard": {
+      "text": "à Poudlard",
+      "img": "poudlard.jpg"
+    },
+    "Les Trois Balais": {
+      "text": "à la taverne Les Trois Balais",
+      "img": "taverne.jpg"
+    },
+    "Cabane hurlante": {
+      "text": "à la Cabane hurlante",
+      "img": "cabanehurlante.webp",
+      "_comment_img": "Format .webp utilisé, vérifier compatibilité"
+    },
+    "Weasley, Farces pour sorciers facétieux": {
+      "text": "au magasin Weasley, Farces pour sorciers facétieux",
+      "img": "magasin.jpeg",
+      "_comment_img": "Extension .jpeg utilisée, considérer uniformisation"
+    },
+    "Ollivander - Fabricants de baguettes magiques": {
+      "text": "chez Ollivander - Fabricants de baguettes magiques",
+      "img": "ollivander.jpg"
+    },
+    "Banque Gringotts": {
+      "text": "à la banque Gringotts",
+      "img": "gringotts.png"
+    },
+    "Egypte": {
+      "text": "en Égypte",
+      "img": "egypte.png",
+      "_comment": "Pays ajouté comme localisation"
+    },
+    "Roumanie": {
+      "text": "en Roumanie",
+      "img": "roumanie.png",
+      "_comment": "Pays ajouté comme localisation"
+    }
+  },
+  "_comment_final": "Structure JSON optimisée pour la lisibilité et la maintenance"
+}
