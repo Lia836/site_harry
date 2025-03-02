@@ -1,0 +1,123 @@
+/* Définition des variables globales pour une meilleure maintenabilité et cohérence */
+:root {
+    --clock-size: 500px; /* Taille de l'horloge */
+    --border-color: #333; /* Couleur de la bordure */
+    --aiguille-color: #4285f4; /* Couleur des aiguilles */
+    --background-color: #f0f0f0; /* Couleur de fond */
+    --transition-duration: 0.5s; /* Durée de la transition pour les animations */
+}
+
+/* Style de base pour centrer l'horloge dans la page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Utilise min-height pour s'adapter aux petits écrans */
+    background-color: var(--background-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style principal de l'horloge */
+.clock {
+    position: relative;
+    width: var(--clock-size);
+    height: var(--clock-size);
+    border-radius: 50%; /* Crée une forme circulaire */
+    border: 5px solid var(--border-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ajoute de la profondeur */
+}
+
+/* Styles communs pour toutes les aiguilles */
+.aiguille {
+    position: absolute;
+    transform-origin: bottom center; /* Point de pivot en bas au centre */
+    bottom: 50%;
+    left: calc(50% - 2.5px); /* Centre l'aiguille horizontalement */
+    transition: transform var(--transition-duration) cubic-bezier(0.4, 2.08, 0.55, 0.44);
+    /* Transition personnalisée pour un mouvement fluide et légèrement élastique */
+}
+
+/* Styles spécifiques pour chaque type d'aiguille */
+.aiguille.heure {
+    width: 5px;
+    height: 30%;
+    background-color: var(--aiguille-color);
+}
+
+.aiguille.minute {
+    width: 4px;
+    height: 40%;
+    background-color: var(--aiguille-color);
+}
+
+.aiguille.seconde {
+    width: 2px;
+    height: 45%;
+    background-color: #ff0000; /* Rouge pour la seconde pour plus de visibilité */
+}
+
+/* Style commun pour tous les emplacements */
+.location {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    max-width: 75px;
+    max-height: 75px;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Animation au survol */
+    background-color: rgba(255, 255, 255, 0.8); /* Fond légèrement transparent */
+}
+
+/* Style des images dans les emplacements */
+.location img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que l'image couvre tout l'espace sans déformation */
+}
+
+/* Effet de zoom au survol pour l'interactivité */
+.location:hover {
+    transform: scale(1.1);
+}
+
+/* Styles spécifiques pour chaque lieu si nécessaire */
+#Maison { background-color: rgba(255, 235, 205, 0.8); }
+#Poudlard { background-color: rgba(220, 220, 220, 0.8); }
+#LesTroisBalais { background-color: rgba(210, 180, 140, 0.8); }
+#CabaneHurlante { background-color: rgba(169, 169, 169, 0.8); }
+#WeasleyFarces { background-color: rgba(255, 160, 122, 0.8); }
+#Ollivander { background-color: rgba(222, 184, 135, 0.8); }
+#BanqueGringotts { background-color: rgba(192, 192, 192, 0.8); }
+#Egypte { background-color: rgba(255, 248, 220, 0.8); }
+#Roumanie { background-color: rgba(240, 230, 140, 0.8); }
+
+/* Affichage numérique de l'heure pour plus de précision */
+#digital-time {
+    position: absolute;
+    bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--border-color);
+}
+
+/* Media query pour la responsivité sur les petits écrans */
+@media (max-width: 600px) {
+    :root {
+        --clock-size: 300px; /* Réduit la taille de l'horloge sur les petits écrans */
+    }
+    
+    .location {
+        width: 12%;
+        height: 12%;
+    }
+    
+    #digital-time {
+        font-size: 18px; /* Réduit la taille de la police pour s'adapter */
+    }
+}
