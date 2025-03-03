@@ -36,9 +36,9 @@
       "_comment_img": "Extension .png utilisée ici, considérer uniformisation",
       "lieu": "Egypte",
       "date": "2025-02-27T10:52:13Z",
-       "LatLng": {
-        "latitude": 229.977296 ,  
-        "longitude": 31.1324965  // Coordonnées pyramide Gizeh
+      "LatLng": {
+        "latitude": 29.58338,
+        "longitude": 31.07495,  // Coordonnées pyramide Gizeh
               }
     },
     },
@@ -155,8 +155,8 @@
       "img": "egypte.png",
       "_comment": "Pays ajouté comme localisation",
       "LatLng": {
-        "latitude": 229.977296 ,  
-        "longitude": 31.1324965  // Coordonnées pyramide Gizeh
+        "latitude": 29.58338,
+        "longitude": 31.07495,  // Coordonnées pyramide Gizeh
               }
     },
     "Roumanie": {
