@@ -8,12 +8,12 @@
       "prenom": "Ron",
       "img": "ron.jpg",
       "_comment_img": "Nom de fichier en minuscules pour cohérence",
-      "lieu": "chez Ollivander - Fabricants de baguettes magiques",
+      "lieu": "Ollivander",
       "date": "2025-02-26T10:57:54Z",
       "_comment_date": "Format ISO 8601 avec 'Z' pour UTC",
       "LatLng": {
-        "latitude": 51.5144,   
-        "longitude": 0.1354 // Londres, quartier Soho, magasin baguettes magiques
+        "latitude": 51.5144,
+        "longitude": 0.1354
       }
     },
     "2": {
@@ -23,10 +23,8 @@
       "lieu": "Poudlard",
       "date": "2025-03-01T13:34:36Z",
       "LatLng": {
-            "latitude": 57.274029,   
-        "longitude": 5.516111, // Coordonnées château Eilean Donan Castle en Ecosse
-
-        }
+        "latitude": 57.274029,
+        "longitude": 5.516111
       }
     },
     "3": {
@@ -38,9 +36,8 @@
       "date": "2025-02-27T10:52:13Z",
       "LatLng": {
         "latitude": 29.58338,
-        "longitude": 31.07495,  // Coordonnées pyramide Gizeh
-              }
-    },
+        "longitude": 31.07495
+      }
     },
     "4": {
       "nom": "WEASLEY",
@@ -49,20 +46,20 @@
       "lieu": "Roumanie",
       "date": "2025-03-02T12:08:43Z",
       "LatLng": {
-        "latitude": 45.35988,  
-        "longitude": 25.542744 // Coordonnées Château de Peleş Roumanie
-       }
+        "latitude": 45.35988,
+        "longitude": 25.542744
+      }
     },
     "5": {
       "nom": "WEASLEY",
       "prenom": "Fred et George",
       "_comment_prenom": "Noms composés autorisés pour les jumeaux",
       "img": "fredetgeorge.png",
-      "lieu": "Weasley, Farces pour sorciers facétieux",
+      "lieu": "WeasleyFarces",
       "date": "2025-02-03T09:35:42Z",
       "LatLng": {
-        "latitude": 51.3036,   
-        "longitude": -0.0804  // Londres, Picadilly circus
+        "latitude": 51.3036,
+        "longitude": -0.0804
       }
     },
     "6": {
@@ -72,20 +69,19 @@
       "lieu": "Maison",
       "date": "2025-03-04T15:04:26Z",
       "LatLng": {
-        "latitude": 50.4300012,   //
-        "longitude": 3.4300012  // Coordonnées Devon en Angleterre, maison,
-        
+        "latitude": 50.4300012,
+        "longitude": 3.4300012
       }
     },
     "7": {
       "nom": "WEASLEY",
       "prenom": "Percy",
       "img": "percy.png",
-      "lieu": "Banque Gringotts",
+      "lieu": "Gringotts",
       "date": "2025-03-01T13:34:36Z",
       "LatLng": {
-        "latitude": 51.3056, 
-        "longitude": -0.0532 // Coordonnées de Londres, la City
+        "latitude": 51.3056,
+        "longitude": -0.0532
       }
     }
   },
@@ -94,79 +90,66 @@
     "Maison": {
       "text": "à la maison",
       "img": "maison.jpg",
-      "_comment": "Texte descriptif pour l'affichage",
       "LatLng": {
-        "latitude": 50.4300012,   //
-        "longitude": 3.4300012  // Coordonnées Devon en Angleterre
+        "latitude": 50.4300012,
+        "longitude": 3.4300012
       }
     },
     "Poudlard": {
       "text": "à Poudlard",
       "img": "poudlard.jpg",
       "LatLng": {
-        "latitude": 57.274029,   
-        "longitude": 5.516111, // Coordonnées château Eilean Donan Castle en Ecosse
-        
+        "latitude": 57.274029,
+        "longitude": 5.516111
       }
     },
-    "Les Trois Balais": {
-      "text": "à la taverne Les Trois Balais",
-      "img": "taverne.jpg",
-       "LatLng": {
-        "latitude": 57.5066357,   //Coordonnées rue de Pré-au-Lard, en Ecosse
-        "longitude": -5.0038367  
-    },
-    "Cabane hurlante": {
-      "text": "à la Cabane hurlante",
-      "img": "cabanehurlante.webp",
-      "_comment_img": "Format .webp utilisé, vérifier compatibilité",
-       "LatLng": {
-        "latitude": 57.3000,   // Coordonnées Loch Ness, United Kingdom. 
-        "longitude": -4.4500  
-      }
-    },
-    "Weasley, Farces pour sorciers facétieux": {
-      "text": "au magasin Weasley, Farces pour sorciers facétieux",
-      "img": "magasin.jpeg",
-      "_comment_img": "Extension .jpeg utilisée, considérer uniformisation",
-      "LatLng": {
-        "latitude": 51.3036,   
-        "longitude": -0.0804  // Londres, Picadilly circus
-      }
-    },
-    "Ollivander - Fabricants de baguettes magiques": {
+    "Ollivander": {
       "text": "chez Ollivander - Fabricants de baguettes magiques",
       "img": "ollivander.jpg",
-       "LatLng": {
-        "latitude": 51.5144,   
-        "longitude": 0.1354 // Londres, quartier Soho, magasin baguettes magiques
-      }
-    },
-    "Banque Gringotts": {
-      "text": "à la banque Gringotts",
-      "img": "gringotts.png",
       "LatLng": {
-        "latitude": 51.3056, 
-        "longitude": -0.0532 // Coordonnées de Londres, la City
+        "latitude": 51.5144,
+        "longitude": 0.1354
       }
     },
     "Egypte": {
       "text": "en Égypte",
       "img": "egypte.png",
-      "_comment": "Pays ajouté comme localisation",
       "LatLng": {
         "latitude": 29.58338,
-        "longitude": 31.07495,  // Coordonnées pyramide Gizeh
-              }
+        "longitude": 31.07495
+      }
     },
     "Roumanie": {
       "text": "en Roumanie",
       "img": "roumanie.png",
-      "_comment": "Pays ajouté comme localisation",
       "LatLng": {
-        "latitude": 45.35988,  
-        "longitude": 25.542744 // Coordonnées Château de Peleş Roumanie
+        "latitude": 45.35988,
+        "longitude": 25.542744
       }
+    },
+    "WeasleyFarces": {
+      "text": "au magasin Weasley, Farces pour sorciers facétieux",
+      "img": "magasin.jpeg",
+      "LatLng": {
+        "latitude": 51.3036,
+        "longitude": -0.0804
+      }
+    },
+    "Gringotts": {
+      "text": "à la banque Gringotts",
+      "img": "gringotts.png",
+      "LatLng": {
+        "latitude": 51.3056,
+        "longitude": -0.0532
+      }
+    },
+    "CabaneHurlante":{
+     "text": "à la Cabane hurlante",
+     "img": "cabanehurlante.webp",
+     "LatLng":{
+      "latitude": 57.3000,
+      "longitude": -4.4500
+     }
     }
   },
   "_comment_final": "Structure JSON optimisée pour la lisibilité et la maintenance"
